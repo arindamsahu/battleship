@@ -5,8 +5,8 @@ import Squares from './Squares';
 class Board extends Component {
   render() {
     return (
-      <div className="Board">
-      <Squares></Squares>
+      <div>
+        <Squares rows={10} cols={10}></Squares> 
       </div>
     );
   }
